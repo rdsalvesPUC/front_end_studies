@@ -116,5 +116,8 @@
   "bugs": {
     "url": "https://github.com/rdsalvesPUC/front_end_studies/issues"
   },
-  "homepage": "https://github.com/rdsalvesPUC/front_end_studies#readme"
+  "homepage": "https://github.com/rdsalvesPUC/front_end_studies#readme",
+  "scripts": {
+  "build:css": "npx tailwindcss -i ./src/styles/input.css -o ./public/styles/main.css --watch"
+}
 }
